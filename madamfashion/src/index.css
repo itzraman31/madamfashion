@@ -122,7 +122,7 @@ input {
 .slides {
     width: 95%;
     height: 620px;
-    background-image: url(images/backG8.jpg);
+    background-image: url(../public/images/backG11.jpg);
     background-position: center;
     background-size: cover;
     margin: auto;
@@ -135,29 +135,25 @@ input {
 
 @keyframes slider {
     0% {
-        background-image: url(images/backG8.jpg);
+        background-image: url(../public/images/backG11.jpg);
     }
 
     25% {
-        background-image: url(images/b3.jpg);
+        background-image: url(../public/images/backG3.jpg);
     }
 
     50% {
-        /* background-image: url(images/kidsgroup.jpg); */
-        background-image: url(images/backG11.jpg);
+        background-image: url(../public/images/backG8.jpg);
     }
 
     75% {
-        background-image: url(images/backG15.jpg)
+        background-image: url(../public/images/backG15.jpg);
     }
 
     100% {
-        background-image: url(images/backG4.jpg);
+        background-image: url(../public/images/backG1.jpg);
     }
 }
-
-
-
 
 .loginouterdiv {
     display: flex;
